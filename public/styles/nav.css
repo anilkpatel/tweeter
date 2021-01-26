@@ -1,0 +1,13 @@
+/*Lighthouse Labs
+* Week 4, Day 1
+* tweeter
+* Anil Patel*/
+
+nav { 
+  height: 120 px;
+  color: #FFFFFF;
+  background-color: #4056A1; 
+  font-family: 'Bungee', cursive bold;
+  padding: 1.5em;
+  width: 100%; 
+}
