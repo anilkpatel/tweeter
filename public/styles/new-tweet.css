@@ -3,20 +3,28 @@
 * tweeter
 * Anil Patel*/
 
-footer { 
+.submit-container { 
   height: 400 px;
   color: #FFFFFF;
   background-color: #b0c4de; 
   font-family: 'Source+Sans+Pro', bold;
   width: 100%; 
   display: flex; 
-  flex-direction: row;
-  align-items: center; 
   justify-content: space-between; 
 }
 
+/* Tweeter button*/
+.submit-container button {
+  display:inline-block;
+  width:2em;
+  border-left: 1px #4056A1;
+  padding-left: 1em;
+  margin-left: 1em;
+  content: button(line);
+}
+
 /* counter button*/
-code .line::before {
+.submit-container button {
   display:inline-block;
   width:2em;
   border-right: 1px black solid;
@@ -25,26 +33,24 @@ code .line::before {
   content: counter(line);
 }
 
-/* Tweet button*/
-code .line::before {
-  display:inline-block;
-  width:2em;
-  border-left: 1px #4056A1;
-  padding-left: 1em;
-  margin-left: 1em;
-  content: button (line);
+/* What are you Humming */
+form label {
+  box-sizing: border-box;
 }
-
-/* Rounded border */
-hr.rounded {
+form {
+  margin: 20px;
+}
+.action {
+  color: turquoise;
+}
+textarea {
+  padding: 20px;
+  min-height: 200px;
+  width: 100%;
+  border: none;
   border-top: 8px solid #bbb;
   border-radius: 5px;
-}
-
-nav button {
-  background-color: pink;
-  color: #4056A1;
-  font-family: 'Source+Sans+Pro', bold;
+  /* Rounded border */
 }
 
 /*header div {
