@@ -10,4 +10,11 @@ nav {
   font-family: 'Bungee', cursive bold;
   padding: 1.5em;
   width: 100%; 
+  display: flex;
+  justify-content: space-between; 
+ }
+
+nav button {
+  background-color: pink;
+  font-family: 'Bungee', cursive bold;
 }
