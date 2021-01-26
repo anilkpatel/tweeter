@@ -1,3 +1,8 @@
+/*Lighthouse Labs
+* Week 4, Day 1
+* tweeter
+* Anil Patel*/
+
 /*
  * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
  * https://css-tricks.com/international-box-sizing-awareness-day/
@@ -17,6 +22,7 @@ html {
 body {
   color: #545149;
   background-color: #f4f1ec;
+  font family: "Source Sans Pro", sans-serif;
   font-size: 24px;
 }
 
