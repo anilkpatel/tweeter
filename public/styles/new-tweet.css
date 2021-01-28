@@ -53,6 +53,12 @@ textarea {
   /* Rounded border */
 }
 
+.countdown {
+  color: red;
+  
+}
+
+
 /*header div {
   display: flex;
   justify-content: center;
